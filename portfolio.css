@@ -1,0 +1,296 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', 'Courier', 'monospace';
+}
+
+/* 1 INTERFACE */
+header {
+    width: 100%;
+    height: 850px;
+    background: url("images/inter_color.jpg") no-repeat center;
+    display: flex;
+    justify-content: center;
+}
+
+.header-text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}
+
+/* FILIGRANES */
+#fili {
+    position: relative;
+    bottom: -70px;
+    background-clip: text;
+    color: rgba(184, 138, 94, 0.342);
+    z-index: auto;
+    font-family: 'Courier New';
+    font-size: 400%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BARRE DE NAVIGATION */
+.menu {
+    background-color: white;
+    width: 100%;
+}
+
+.Box_navit {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: hover;
+}
+/* BARRE DE NAVIGATION */
+
+/* 2 PAGE PRESENTATION */
+.present {
+    width: 100%;
+    background-color: rgba(216, 207, 207, 0.418);
+    text-align: center;
+    padding: 5%;
+}
+
+.presentation {
+    text-align: center;
+}
+
+/* TITRES PAGES */
+h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* 3 PAGE RÉALISATION */
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+
+.Travaux {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.trav {
+    width: 30%;
+    margin: 20px;
+    border-radius: 1%;
+}
+
+/* 4 PAGE ACTIVITÉS */
+.activ {
+    background-color: rgba(216, 207, 207, 0.418);
+}
+
+.Services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.serv {
+    width: 30%;
+    margin: 15px;
+}
+
+/* 5 PAGE COMPÉTENCES */
+.container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.leftpart {
+    width: 30%;
+}
+
+.competences {
+    width: 100%;
+}
+
+.rightpart {
+    width: 70%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bar {
+    background-color: rgba(128, 128, 128, 0.404);
+    border: 1px solid rgba(0, 0, 0, 0.747);
+    width: 100%;
+    border-radius: 2px;
+    margin: 5px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.747);
+    line-height: 30px;
+    display: inline;
+}
+
+.Html5 {
+    width: 94%;
+    background-color: rgba(202, 32, 32, 0.932);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.CSS3 {
+    width: 94%;
+    background-color: rgba(8, 8, 238, 0.623);
+    display: flex;
+    justify-content: space-between;
+}
+
+.PHP {
+    width: 90%;
+    background-color: rgb(34, 77, 105);
+    display: flex;
+    justify-content: space-between;
+}
+
+.wordpress {
+    width: 80%;
+    background-color: rgba(56, 191, 245, 0.87);
+    display: flex;
+    justify-content: space-between;
+}
+
+.Mysql {
+    width: 75%;
+    background-color: rgba(101, 250, 235, 0.822);
+    display: flex;
+    justify-content: space-between;
+}
+
+.JV {
+    width: 70%;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Symfony {
+    width: 70%;
+    background-color: rgba(128, 128, 128, 0.767);
+    display: flex;
+    justify-content: space-between;
+}
+
+.JS {
+    width: 70%;
+    background-color: rgba(231, 184, 112, 0.89);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* 6 PAGE CONTACT */
+.contact-form {
+    width: 100%;
+    background-color: rgba(216, 207, 207, 0.418);
+}
+
+.boxform {
+    padding: 10px;
+    width: 50%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.input {
+    padding: 10px;
+    width: 100%;
+    margin: 5px 0;
+    border: 1px solid black;
+}
+
+/* 7 FOOTER */
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.678);
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.separation {
+    width: 5%;
+    color: black;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* RESPONSIVE */
+
+/* MOBILE FIRST */
+@media only screen and (max-width: 900px) {
+    .header {
+        width: 90%;
+    }
+
+    .header-text {
+        width: 90%;
+    }
+
+
+    .body {
+        width: 90%;
+    }
+
+    .Box_navit {
+        width: 90%;
+        display: block;
+        float: none;
+    }
+
+    .buttons {
+        width: 90%;
+        display: block;
+        justify-content: center;
+
+    }
+}
